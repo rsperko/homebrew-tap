@@ -1,8 +1,8 @@
 class Diamond < Formula
   desc "Lightning-fast CLI for stacked pull requests"
   homepage "https://github.com/rsperko/diamond"
-  url "https://crates.io/api/v1/crates/diamond-cli/0.1.1/download"
-  sha256 "657e79b710a4ca0da8b41bb803a9ea594de2d107fcd849b92f492a3fe902b8b2"
+  url "https://github.com/rsperko/diamond/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "19741fdad0fff00d62967483d53ec99755ecea8c3d36686dc8c57db7e94d8d11"
   license "Apache-2.0"
   head "https://github.com/rsperko/diamond.git", branch: "main"
 
