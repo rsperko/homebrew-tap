@@ -1,8 +1,8 @@
 class Diamond < Formula
   desc "Lightning-fast CLI for stacked pull requests"
   homepage "https://github.com/rsperko/diamond"
-  url "https://github.com/rsperko/diamond/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "d57151f13600adadff322fe38e8ee0782eaa91b43857affbd4b06b419d9821ca"
+  url "https://github.com/rsperko/diamond/archive/refs/tags/v0.1.3.tar.gz"
+  sha256 "60778616d7ef58cc5d6860074ab0ae9dc5df7c4f07a407565d52ed053b901424"
   license "Apache-2.0"
   head "https://github.com/rsperko/diamond.git", branch: "main"
 
