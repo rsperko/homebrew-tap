@@ -1,32 +1,39 @@
-# Diamond Homebrew Tap
+# rsperko Homebrew Tap
 
-Homebrew tap for [Diamond](https://github.com/rsperko/diamond) - a lightning-fast CLI for stacked pull requests.
+Homebrew tap for KeyScribe and other tools.
 
-## Installation
+## KeyScribe
+
+Local-first voice dictation for macOS. Speech recognition runs on your Mac, there is no telemetry or
+account, and optional rewrite modes use only providers or endpoints you configure.
+
+Install:
+
+```bash
+brew install rsperko/tap/keyscribe
+```
+
+If Homebrew asks you to trust the tap:
 
 ```bash
 brew tap rsperko/tap
-brew install diamond
+brew trust --tap rsperko/tap
+brew install keyscribe
 ```
 
-Or install in one command:
+Current KeyScribe binaries are pre-1.0 prereleases. Requirements: macOS 15+ on Apple silicon.
+
+- Source: https://github.com/rsperko/keyscribe
+- Releases: https://github.com/rsperko/keyscribe/releases
+
+## Diamond
+
+Lightning-fast CLI for stacked pull requests.
+
+Install:
 
 ```bash
 brew install rsperko/tap/diamond
 ```
 
-## Install from HEAD
-
-To install the latest development version:
-
-```bash
-brew install rsperko/tap/diamond --HEAD
-```
-
-## About Diamond
-
-Diamond is a Rust-powered CLI for managing stacked pull requests on GitHub and GitLab. It's the workflow used at Meta, Google, and top engineering teams to ship code faster.
-
-⚠️ **Alpha Software**: Diamond is in active development (v0.1.x). Works well, but expect rough edges.
-
-[View Documentation](https://github.com/rsperko/diamond)
+- Source: https://github.com/rsperko/diamond
