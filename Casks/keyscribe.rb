@@ -5,7 +5,7 @@ cask "keyscribe" do
   url "https://github.com/rsperko/keyscribe/releases/download/v#{version}/KeyScribe-#{version}.dmg"
   name "KeyScribe"
   desc "Privacy-first, local-first voice dictation for macOS"
-  homepage "https://github.com/rsperko/keyscribe"
+  homepage "https://rsperko.github.io/keyscribe/"
 
   livecheck do
     url :url
