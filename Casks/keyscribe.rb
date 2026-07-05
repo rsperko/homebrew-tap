@@ -1,11 +1,11 @@
 cask "keyscribe" do
-  version "0.1.18"
-  sha256 "9f90b2d72651fed23d2ef236c1b328c36ec967c2d9981caffe1a5b67e5899db1"
+  version "0.1.19"
+  sha256 "8c701f4a0c271c55942338489e66de09a8409263a456263ab0d3bbefda9431bf"
 
   url "https://github.com/rsperko/keyscribe/releases/download/v#{version}/KeyScribe-#{version}.dmg"
   name "KeyScribe"
   desc "Privacy-first, local-first voice dictation for macOS"
-  homepage "https://rsperko.github.io/keyscribe/"
+  homepage "https://github.com/rsperko/keyscribe"
 
   livecheck do
     url :url
