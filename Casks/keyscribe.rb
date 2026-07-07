@@ -1,6 +1,6 @@
 cask "keyscribe" do
-  version "0.1.20"
-  sha256 "5eea9e10e97cc66305e5ae473a30e6db7858ed17a294016821f277643cedd2b4"
+  version "0.1.21"
+  sha256 "62cf0b0a2bc78f55464eb1ecea48283a36d81f3b88e731fb9f5262c9bef219be"
 
   url "https://github.com/rsperko/keyscribe/releases/download/v#{version}/KeyScribe-#{version}.dmg"
   name "KeyScribe"
