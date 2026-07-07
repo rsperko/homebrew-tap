@@ -1,6 +1,6 @@
 cask "keyscribe" do
-  version "0.1.21"
-  sha256 "62cf0b0a2bc78f55464eb1ecea48283a36d81f3b88e731fb9f5262c9bef219be"
+  version "0.2.0"
+  sha256 "1f2f6e9b88dbdc606d9b7be0f5561c07d8af032e3bf6fbfb2df206181f7d7641"
 
   url "https://github.com/rsperko/keyscribe/releases/download/v#{version}/KeyScribe-#{version}.dmg"
   name "KeyScribe"
@@ -12,7 +12,9 @@ cask "keyscribe" do
     strategy :github_latest
   end
 
-  depends_on macos: :tahoe
+  depends_on macos: ">= :sequoia"
+
+  auto_updates true
 
   app "KeyScribe.app"
 
